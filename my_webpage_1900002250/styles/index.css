@@ -1,0 +1,390 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+
+/*Header Part*/
+#header {
+    background-image: url(../images/header_background.jpg); /*image to be uploaded directly as a background,so add it in css part. */
+    width: 100%;
+    height: 15rem;
+    position: relative;  
+}
+
+
+
+#header .header-content{
+
+    position: absolute;
+    align-items: center;
+    height: 20rem;
+    margin-right: 2%;
+    
+}
+
+
+#header #rightsideimg{
+
+    height: 60%;
+    width: 25%;
+    background-color: palevioletred;
+    position: absolute;
+    top: 10%;
+    right : 1%;
+    
+}
+
+#header .header-content{
+
+    text-align: center;  
+    top: 50%;
+    left:50%;
+    position: absolute;
+    transform: translate(-50%,-30%);
+    
+}
+
+#header .header-content h1{
+
+    color:white;
+    font-family:'Courier New';
+    font-size: 50px;
+    margin-bottom: 0;
+    
+}
+
+#header .header-content p{
+
+    color: orange;
+    font-family: Tahoma;
+    font-size: 20px;
+    
+}
+
+#header #belenimg{
+    
+    height: 50%;
+    width: 8%;
+    border:solid 2px blue;
+    position: absolute;
+    border-radius: 50%;
+    left: 50%;
+    top: 80%;
+    transform: translate(-90%,0);
+    
+    
+}
+
+.flags #one {
+
+    width: 50px;
+    height: 50px;
+    margin-right:0;
+    padding: 1px;
+ 
+}
+
+
+
+
+
+.flags #two {
+    width: 50px;
+    height: 50px;
+    margin-left: 0;
+    padding: 2px;
+      
+}
+
+
+
+.flags{
+    position: absolute;
+    width: 10rem;
+    height:5rem;
+    top:10%;
+    left: 1%;
+}
+
+
+
+/*Main Part*/
+
+
+#main #main-left{
+    
+    
+    width: 16%;
+    text-align: left;
+    border:solid 3px green ;
+    background-color:#f1f1f1;
+    margin-left: 2px;
+    border-radius: 25px;
+    float: left;
+    position: fixed;
+    
+    
+}
+
+#main #main-middle{
+
+    
+    height: 100%;
+    text-align: center;
+    border-style: dashed;
+    border-color: blue;
+    padding:50px;
+    margin-left: 17%;
+    margin-right: 24%;
+    margin-top: 3px;
+}
+
+
+#main #main-right{
+   
+    width: 23%;
+    height: 100%;
+    float: right;
+    
+
+}
+
+
+
+#main #main-middle .link{
+    animation: linker 1.3s linear infinite;
+
+}
+
+@keyframes linker{
+    from{opacity: 2;}
+    to{opacity: 0;}
+}
+
+#main #main-middle h1{
+    margin:5%
+}
+
+
+
+/*Left Main Content*/
+#main-left #menu {
+    width: 40%;
+    height: 30%;
+    border-radius: 10px;
+   
+}
+ #main-left #menu img{
+
+    width: 10%;
+    height: 10%;
+    position: absolute;
+    left: 0px;
+ }
+
+ #main-left #menu p{ 
+    padding-left: 35px;
+ }
+
+
+ #main-left #menu a{
+    text-decoration:none;
+    color: black;
+    
+ }
+
+ #menu span:hover{   /*when we hover over it with the mouse, it will change color and become gray */
+    background-color: gray;
+ }
+
+
+
+
+/*Main Middle Content*/
+#main #main-middle h1{
+    font-family: Arial;
+    font-size: 25px;
+    margin-bottom:35px;
+}
+
+.items {
+    padding:10px 3px;
+    margin: 10px;
+
+}
+
+#main #main-middle .title{
+    font-size: 20px;
+    font-family: Arial;
+}
+
+#main #main-middle .content{
+    font-size: 18px;
+    font-family: Arial;
+    text-align:left;
+    align-items: center;
+    padding: 10px;
+}
+
+#aboutme{
+
+    background-color:rgba(236, 176, 176);
+    
+}
+
+#education{
+    background-color:rgba(182, 237, 174) ;
+}
+#education ol{
+    margin-left: 45px;
+}
+
+#experience{
+    background-color:rgba(224, 228, 87) ;
+}
+#experience ul{
+    margin-left: 45px;
+}
+
+#skills{
+
+    background-color:rgba(167, 146, 202) ;
+}
+
+#skills img{
+    width: 5rem;
+    height: 5rem;
+    margin: 8px;
+}
+
+#hobbies{
+    background-color:rgba(184, 131, 129) ;
+}
+
+#hobbies ul{
+    margin-left: 45px;
+}
+
+
+/*Right main content */
+
+#table{
+    border: solid 3px green;
+
+}
+
+
+#menuid hr{
+    
+    border-top: solid 2px gray;
+    
+    
+}
+
+#menuid {
+
+    border-radius: 10px;
+    padding-top: 0px;
+    background-color:rgb(0, 71, 150);
+    margin-top: -4%;
+   
+    
+    
+}
+
+
+#menuid h1{
+    
+    text-align: center;
+    border-bottom: solid 3px red;
+    color: white;
+    font-family: Garamond;
+    font-size: 16pt;
+    padding: 2px 2px 2px 2px;
+    
+}
+
+#menuid table{
+    
+    color: white;
+    font-family: Garamond;
+    font-size: 12pt;
+}
+
+#menuid table td{
+    padding: 10px;
+}
+
+#menuid table a{
+
+    color:white;
+    text-decoration: none;
+    
+}
+
+
+#menucontact{
+
+    margin-top: 0%;
+    background-color: rgb(173, 216, 230);
+    border-radius: 20px;  
+}
+
+#menucontact h1{
+
+    text-align: center;
+    border-bottom: solid 3px red;
+    padding: 10px 5px 5px 5px;
+    font-family: Verdana;
+    font-size: 12pt;
+   
+}
+
+
+#menucontact table{
+
+    font-size: 12pt;
+    font-family: Verdana;
+   
+    
+}
+
+#menucontact table td{
+    padding: 10px 10px;
+   
+}
+
+
+
+
+
+#menucontact button{
+    
+    text-align: center;
+    margin-bottom: 5px;
+    transform: translate(250%,0);
+    
+
+}
+
+
+/*FOOTER PART*/
+footer {
+    
+    background-color: black;
+    padding: 1px;
+    margin-top: 5px;
+    text-align: center;
+    border-radius: 40px;
+    
+}
+
+footer p{
+   
+    color:red;
+    margin: 5px;
+    font-family: Copperplate;
+    font-size: 20px;
+
+}

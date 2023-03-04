@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web Page</title>
+    <!--external css link-->
+    <link rel="stylesheet" href="./styles/index.css" >
+
+    <style>
+        .vertical-line{
+            display: inline-block;
+            border-left: 1px solid green;
+            margin: 0px;
+            height: 50px;
+        }
+    </style>
+   
+</head>
+<body>
+    
+    <header id="header">
+         <!--I defined it as id because I will use it many times on the same page-->
+
+        <div class="flags">
+            <img src="./images/Eng.png" alt="Engflag" id="one" >
+            <span class="vertical-line"></span>
+            <img src="./images/Tur.png" alt="Turflag" id="two">
+
+        </div>
+       
+        
+        <div class="header-content">
+                <h1>Beyza Belen İrican</h1>
+                <p>Student at IKU</p>
+                
+        </div>
+
+         
+        <img src="./images/header_rightside.jpg" alt="header_rightside" id="rightsideimg"> 
+        <img src="./images/belen.jpg" alt="myimg" id="belenimg">
+
+
+    </header>
+
+    <div id="main"> <!-- create a main div and create three (main-left,main-middle and main-right) separate divs inside the main div-->
+        <div id="main-left"> 
+            <div id="menu">
+                <a href="https://tr-tr.facebook.com">
+                    <p><img src="./images/facebook.png" alt="facebook"> 
+                    <span>Facebook</span></p></a>
+                <a href="https://www.instagram.com">
+                    <p><img src="./images/insta.png" alt="insta"> 
+                    <span>Instagram</span></p></a>
+                <a href='https://twitter.com/i/flow/login?input_flow_data=%7B"requested_variant"%3A"eyJsYW5nIjoidHIifQ%3D%3D"%7D'>
+                    <p><img src="./images/twiter.png" alt="Twitter">
+                    <span>Twitter</span></p></a>
+                <a href="https://www.linkedin.com/feed">
+                    <p><img src="./images/in.png" alt="linkedin">
+                    <span>LinkedIn</span></p></a>
+                <a href="https://www.google.com.tr/?hl=tr">
+                    <p><img src="./images/g.png" alt="google">
+                    <span>Google+</span></p></a>
+                <a href="https://www.youtube.com">
+                    <p><img src="./images/youtube.png" alt="yt">
+                    <span>Youtube</span></p></a>
+                    
+                       
+
+            </div>
+        </div>
+
+        <div id="main-right">
+            
+            <div id="menu">
+                <div id="menuid">
+                    <h1>QUICK ID</h1>
+                    <table>
+
+                        <tr>
+                            <td>Phone</td>
+                            <td>123-456-7890</td>
+
+                        </tr>
+
+
+                        <tr>
+                            <td>Email</td>
+                            <td><a href="mailto:1900002250@stu.iku.edu.tr">1900002250@stu.iku.edu.tr</a></td>
+
+                        </tr>
+
+
+                        <tr>
+                            <td>Website</td>
+                            <td><a href="https://www.iku.edu.tr/tr/istanbulkulturuniversitesi">www.iku.edu.tr</a></td>
+
+                        </tr>
+
+
+                        <tr>
+                            <td>Address</td>
+                            <td>Ataköy 7-8-9-10,E5 Karayolu Üzeri Ataköy Yerleşkesi,34158 Bakırköy/Istanbul</td>
+
+                        </tr>
+
+                    </table>
+                </div>
+
+                <hr>
+
+                <div id="menucontact">
+                    
+                    <h1>CONTACT ME</h1>
+                    <form action="post">
+                    <table>
+                        <tr>
+                            <td>
+                                <label style="display:block;">First Name *</label>
+                                <input type="text" required>
+                            </td>
+                            <td>
+                                <label style="display:block;">Last Name *</label>
+                                <input type="text" style="width:60%;" required>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <label style="display:block;">Email *</label> 
+                                <input type="email" required >
+                            </td>
+                            <td>
+                                <label style="display:block;">Tel</label> 
+                                <input type="text" style="width:60%;">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <label style="display:block;">Date</label> 
+                                <input type="date">
+                            </td>
+                            <td>
+                                <label style="display:block;">Time</label> 
+                                <input type="time" style="width:60%;">
+
+                            </td>
+                        </tr>
+
+
+                        <tr>
+                            <td colspan="2">
+                                <label style="display:block;">Subject *</label> 
+                                <input type="text" style="width:70%;" required>
+                            </td>
+                            
+                        </tr>
+
+                        <tr>
+                            <td colspan="2">
+                                <label style="display:block;">Message *</label> 
+                                <textarea style="width:70%;" required></textarea>
+                            </td>
+                            
+                        </tr>
+
+                        
+
+                    </table>
+
+                    <button>Submit</button>
+
+                </form>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="main-middle">
+            <h1 class="link">Welcome to My Webpage</h1>
+            
+
+            <div id="aboutme" class="items">
+                <h1 class="title">ABOUT ME</h1>
+                <p class="content">I am a computer engineer which is a broad word under which there are many job roles. As a computer engineer I would be responsible for developing, designing, testing and implementing various computer based software and hardware, which includes certain components found inside the computer equipment. 
+                    Furthermore, I can care for the devices within the computer and the software which power these machines. Finally, I can design the network and assure its security by integrating various software programs and hardware. Computer engineers are in heavy demand all through the business sectors in the world.</p>
+
+            </div>
+
+            <div id="education" class="items">
+                <h1 class="title">EDUCATION</h1>
+                <ol class="content"> <!-- create ordered list -->
+                    <li>Computer Engineering (Postdoctoral)</li>
+                    <li>Computer Engineering (Ph.D.)</li>
+                    <li>Computer Engineering (Master)</li>
+                    <li>Computer Engineering (Bachelor)</li>
+
+                </ol>
+
+            </div>
+
+            <div id="experience" class="items">
+                <h1 class="title">EXPERIENCE</h1> <!-- create ordered list -->
+                <ul class="content">
+                    <li>Assistant Professor Dr.</li>
+                    <li>Research Assistant</li>
+                    <li>Computer Engineer</li>
+                </ul>
+            </div>
+
+            <div id="skills" class="items">
+                <h1 class="title">SKILLS</h1>
+
+                <img src="./images/skills1.jpg" alt="html">
+                <img src="./images/skills2.jpg" alt="css">
+                <img src="./images/skills3.jpg" alt="js">
+                <img src="./images/skills4.jpg" alt="asp.net">
+                <img src="./images/skills5.png" alt="java">
+                <img src="./images/skills6.png" alt="c#">
+                <img src="./images/skills7.png" alt="python">
+            </div>
+
+            <div id="hobbies" class="items"> <!-- create ordered list -->
+                <h1 class="title">HOBBIES AND INTERESTS</h1>
+
+                <ul class="content">
+
+                    <li>Travelling</li>
+                    <li>Sports</li>
+                    <li>Baking</li>
+                    <li>Photography</li>
+                    
+                </ul>
+            </div>
+        </div>
+
+
+ 
+
+    </div>
+
+
+    <footer id="footer">
+        <p>Last Update: 08/11/2022 - 00:25 GMT</p>
+        <p>Copyright @ 2022</p>
+    </footer>
+
+</body>
+</html>
+
+
+
+
+
+    
+    
+
+
+
+    
